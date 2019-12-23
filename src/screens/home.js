@@ -13,10 +13,10 @@ export default class Home extends React.Component {
         <div >
 
           <Carousel>
-            <img src={images.carousel_1} className="img-responsive  "/>
-            <img src={images.carousel_2} className="img-responsive  "/>
-            <img src={images.carousel_3} className="img-responsive  "/>
-            <img src={images.carousel_4} className="img-responsive  "/>
+            <img src={images.carousel_1} className="img-responsive  " alt={'img'}/>
+            <img src={images.carousel_2} className="img-responsive  " alt={'img'}/>
+            <img src={images.carousel_3} className="img-responsive  " alt={'img'}/>
+            <img src={images.carousel_4} className="img-responsive  " alt={'img'}/>
 
           </Carousel>
          

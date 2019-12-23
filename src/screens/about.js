@@ -11,10 +11,10 @@ export default class About extends React.Component {
         <Header />
         <div className="container mb-20">
 
-          <img src={images.Thankyou_1} className="w-full h-400"/>
+          <img src={images.Thankyou_1} className="w-full h-400" alt={'img'}/>
 
           <div style={dotline}>
-             <img src={images.TSP_services_fivesteps} className="w-full h-220 "/>
+             <img src={images.TSP_services_fivesteps} className="w-full h-220 " alt={'img'}/>
           </div>
 
           <div className="row">

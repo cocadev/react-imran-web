@@ -6,7 +6,7 @@ class Footer extends React.Component {
         return (
             <div>
                 <div className="align-center">
-                    <a href="http://www.twitter.com/StudioPartner" target="_blank">
+                    <a href="http://www.twitter.com/StudioPartner" >
                         <div class="twitter">
                             <i class="fa fa-twitter" ></i>
                             <span className='font-16 ml-10'>Follow us on Twitter</span>

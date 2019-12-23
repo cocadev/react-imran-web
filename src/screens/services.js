@@ -11,7 +11,7 @@ export default class About extends React.Component {
         <Header />
         <div className="container">
 
-          <img src={images.Services_1} className="w-full h-400" />
+          <img src={images.Services_1} className="w-full h-400" alt={'img'}/>
 
           <div style={dotline}>
           </div>

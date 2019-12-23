@@ -11,7 +11,7 @@ export default class Contact extends React.Component {
         <Header />
         <div className="container">
 
-          <img src={images.Contact_1} className="w-full h-400" />
+          <img src={images.Contact_1} className="w-full h-400" alt={'img'}/>
 
           <div style={dotline}>
           </div>
@@ -64,13 +64,6 @@ export default class Contact extends React.Component {
       </div>
     )
   }
-}
-
-const minus = {
-  padding: 0,
-  backgroundColor: '#000',
-  color: '#6b0c10',
-  margin: 0
 }
 
 const dotline = {

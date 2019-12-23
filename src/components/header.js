@@ -35,7 +35,7 @@ class Header extends React.Component {
                 </ul>
 
                 <div style={blackBar}>
-                    <img src={images.logo} />
+                    <img src={images.logo} alt={'img'}/>
                 </div>
             </div>
         )
