@@ -1,6 +1,5 @@
 import React from 'react'
 import './index.css'
-// import './bootstrap.css'
 import { Route, BrowserRouter as Router, Switch } from 'react-router-dom'
 import Contact from './screens/contact'
 import Notfound from './screens/notfound';
@@ -11,8 +10,9 @@ import Projects from './screens/projects';
 import Account from './screens/account';
 import Brief from './screens/brief';
 import Signin from './screens/signin';
+import ProjectDetail from './screens/projectDetail';
 
-class App extends React.Component {
+export default class App extends React.Component {
 
   render() {
     return (
@@ -23,7 +23,8 @@ class App extends React.Component {
             <Route exact path="/" component={Home} />
             <Route path="/about" component={About} />
             <Route path="/services" component={Services} />
-            <Route path="/projects" component={Projects} />
+            <Route path="/projects/" component={Projects} />
+            <Route path="/projects/:id" component={ProjectDetail} />
             <Route path="/account" component={Account} />
             <Route path="/contact" component={Contact} />
             <Route path="/brief" component={Brief} />
@@ -37,7 +38,3 @@ class App extends React.Component {
     )
   }
 }
-
-
-
-export default App
